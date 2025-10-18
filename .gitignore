@@ -1,0 +1,10 @@
+# build artifacts
+*.obj
+*.exe
+*.ilk
+*.ppm
+*.bmp
+
+# folders
+bin/
+src/public/
