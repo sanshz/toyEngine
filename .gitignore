@@ -6,5 +6,6 @@
 *.bmp
 
 # folders
-bin/
-src/public/
+.vscode/
+Build/
+Source/Public/
