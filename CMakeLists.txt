@@ -10,7 +10,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add your sources
 add_executable(main
   Source/Private/main.cpp
-  Source/Private/glad.c
 )
 
 # Include directories
@@ -29,6 +28,7 @@ target_link_directories(main
 # Link libraries
 target_link_libraries(main
   PRIVATE
+  glad.lib
   glfw3.lib
   opengl32.lib
   gdi32.lib
