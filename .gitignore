@@ -4,9 +4,11 @@
 *.ilk
 *.ppm
 *.bmp
-*.code-workspace
 
-# folders
+# file
+toy.code-workspace
+
+# folder
 .vscode/
 Build/
 Source/Public/

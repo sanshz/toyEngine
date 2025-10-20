@@ -1,0 +1,5 @@
+# Ignore auto-generated and third-party C code
+Include/** linguist-vendored
+Libs/** linguist-vendored
+
+# Source/Public/*.vsh linguist-language=GLSL
