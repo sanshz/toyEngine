@@ -6,9 +6,8 @@ Currently using `learnopengl.com` resource for basics
 ## Gallery
 ![OpenGL](Images/gl.png)
 
-![Exercise](Images/exercise.png)
-
-<img src="Images/sketch.png" title="Sketch" width="200">
+<img src="Images/exercise00.png" title="ExerciseA" width="400">
+<img src="Images/exercise01.png" title="ExerciseB" width="400">
 
 ## Third Party Libraries
 - GLFW

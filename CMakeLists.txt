@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.1.2)
+cmake_minimum_required(VERSION 3.10.3)
 project(ToyEngine LANGUAGES CXX C)
 
 # Set C/C++ standard
@@ -10,6 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add your sources
 add_executable(main
   Source/Private/main.cpp
+  Source/Private/shader.cpp
 )
 
 # Include directories
@@ -18,6 +19,14 @@ target_include_directories(main
   Include
   Source/Public
 )
+
+if(MSVC)
+target_compile_options(main
+  PRIVATE
+  /permissive-
+  /Wall
+)
+endif()
 
 # Link directories
 target_link_directories(main
