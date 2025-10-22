@@ -2,4 +2,4 @@
 Include/** linguist-vendored
 Libs/** linguist-vendored
 
-# Source/Public/*.vsh linguist-language=GLSL
+# Shaders/** linguist-language=GLSL
