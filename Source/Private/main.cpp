@@ -38,7 +38,7 @@ int main()
     return -1;
   }
 
-  Shader myShader {"..\\..\\Shaders\\shader.vsh", "..\\..\\Shaders\\shader.fsh"};
+  Shader myShader {"../Shaders/shader.vsh", "../Shaders/shader.fsh"};
 
   float vertices[]
   {

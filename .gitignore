@@ -6,7 +6,7 @@
 *.bmp
 
 # file
-toy.code-workspace
+*.code-workspace
 
 # folder
 .vscode/

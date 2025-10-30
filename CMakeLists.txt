@@ -20,13 +20,11 @@ target_include_directories(main
   Source/Public
 )
 
-if(MSVC)
 target_compile_options(main
   PRIVATE
-  /permissive-
-  /Wall
+  -Wall
+  -Wextra
 )
-endif()
 
 # Link directories
 target_link_directories(main
@@ -37,10 +35,6 @@ target_link_directories(main
 # Link libraries
 target_link_libraries(main
   PRIVATE
-  glad.lib
-  glfw3.lib
-  opengl32.lib
-  gdi32.lib
-  user32.lib
-  shell32.lib
+  glad
+  glfw3
 )
